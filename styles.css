@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+body {
+  background: #c7c7c7;
+  background: linear-gradient(66deg, #c7c7c7, #bbb1b1);
+}
+h1 {
+  margin: 10px;
+}
+a {
+  color: black;
+  background-color: #dadada;
+  padding: 3px;
+}
+a:hover {
+  background-color: #d1d1d1;
+}
+span {
+  padding: 0 2px;
+  background-color: #9b9b9b;
+}
+.other {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  list-style: none;
+  padding: 5px;
+}
+.other>li {
+  padding: 3px;
+}
